@@ -1,6 +1,8 @@
 package com.ee.y1.member;
 
 import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
@@ -28,4 +30,8 @@ public class MemberVO {
 	@NotEmpty
 	private String phone;
 
+	//0 이상 200이하
+		@Max(value = 200)
+		@Min(value = 0)
+		private Integer age;
 }

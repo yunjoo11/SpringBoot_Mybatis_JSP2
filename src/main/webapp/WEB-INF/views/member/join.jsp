@@ -118,12 +118,12 @@
 				<!-- 비어 있으면 X -->
 			</div>
 			
-			<%-- <div class="form-group">
+			<div class="form-group">
 				<label for="age">Age</label> 
 				<form:input class="form-control" id="age" path="age" />
 				<form:errors path="age"></form:errors>
 				<!-- 비어 있으면 X -->
-			</div> --%>
+			</div> 
 			
 			
 			<!-- 이 버튼은 submit이벤트가 내장되어있어 값을 비교하고 보내는것이 아닌 그냥 보내므로 null값이여도 보내서 exception발생시킴 -->
